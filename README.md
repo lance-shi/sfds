@@ -18,6 +18,7 @@ For me, I find the simplified version much easier to remember. So I have created
 Simply copy slds.cmd into your computer. And make the path into your system %path% variable. 
 
 ## Usage
+```sh
 sfds:                  simplified command line tool for Salesforce dx CLI
 sfds list:             list all the orgs
 sfds open:             open an org. If org name is not specified, opens default one. E.g. sfds open tempOrg
@@ -30,3 +31,4 @@ sfds createProject:    create an sfdx project. Must specify project name. E.g. s
 sfds deploy:           deploy the changes to targeted org. If org name is not specified, deploy to default org
 sfds default:          change default org
 sfds help:             get the help info
+```
