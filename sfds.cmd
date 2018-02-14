@@ -101,6 +101,7 @@
 	echo sfds createProject:    create an sfdx project. Must specify project name. E.g. sfds createProject sampleProj
 	echo sfds deploy:           deploy the changes to targeted org. If org name is not specified, deploy to default org
 	echo sfds default:          change default org 
+	echo sfds help:             get the help info
 ) else (
 	echo sfds: parameter not supported. 
 	echo Type sfds help to get more info
